@@ -43,3 +43,26 @@ A computer vision-based system that analyzes football match videos using YOLO an
 ---
 
 ## 📂 Project Structure
+├── app.py # Streamlit app
+├── trackers/ # Tracking logic
+├── utils/ # Helper functions
+├── input_videos/ # Input videos
+├── output_videos/ # Processed outputs
+├── models/ # YOLO model
+
+
+---
+
+## ▶️ Run Locally
+
+bash
+pip install -r requirements.txt
+streamlit run app.py
+📌 Use Cases
+Sports analytics
+Player performance tracking
+Match insights & visualization
+AI + Computer Vision projects
+🎯 Summary
+
+This project combines deep learning and computer vision to transform raw football footage into meaningful analytics with an interactive interface.
